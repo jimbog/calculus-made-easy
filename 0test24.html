@@ -1,0 +1,785 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+
+<p><script type="text/javascript"
+  src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+<body>Table of Standard Forms</h1>
+<table rules=all>
+	<tr><th>$\dfrac{dy}{dx}$</th><th>$y$</th><th>$\int y\, dx$</th></tr>
+	<tr><td colspan=3><b><center>Algebraic.</center></b></td></tr>
+
+<tr><td>$1$ </td><td> $x$     </td><td> $\frac{1}{2} x^2 + C$ </td></tr>
+<tr><td>$0$ </td><td> $a$     </td><td> $ax + C $             </td></tr>
+<tr><td>$1$ </td><td> $x ± a$ </td><td> $\frac{1}{2} x^2 ± ax + C$ </td></tr>
+<tr><td>$a$ </td><td> $ax $   </td><td> $\frac{1}{2} ax^2 + C $</td></tr>
+<tr><td>$2x$ </td><td> $x^2$  </td><td> $\frac{1}{3} x^3 + C $ </td></tr>
+<tr><td>$nx^{n-1}$ </td><td> $x^n$ </td><td>$ \dfrac{1}{n+1} x^{n+1} + C $</td></tr>
+<tr><td>$-x^{-2} $ </td><td> $x^{-1}$ </td><td> $\log_\epsilon x + C$ </td></tr>
+<tr><td>$\dfrac{du}{dx} ± \dfrac{dv}{dx} ± \dfrac{dw}{dx}$
+   </td><td> $u ± v ± w$     </td><td> $\int u\, dx ± \int v\, dx ± \int w\, dx$ </td></tr>
+<tr><td>$u\, \dfrac{dv}{dx} + v\, \dfrac{du}{dx}$
+   </td><td> $uv$  </td><td> No general form known </td></tr>
+<tr><td>$\dfrac{v\, \dfrac{du}{dx} - u\, \dfrac{dv}{dx}}{v^2}$
+   </td><td> $\dfrac{u}{v}$ </td><td> No general form known </td></tr>
+<tr><td>$\dfrac{du}{dx}$ </td><td> $u$ </td><td> $ux - \int x\, du + C$ </td></tr>
+
+	<tr><td colspan=3><b><center>Exponential and Logarithmic.</center></b></td></tr>
+<tr><td>$\epsilon^x$ </td><td> $\epsilon^x$ </td><td> $\epsilon^x + C$ 
+<tr><td>$x^{-1}$     </td><td> $\log_\epsilon x$ </td><td> $ x(\log_\epsilon x - 1) + C$ 
+<tr><td>$0.4343 × x^{-1}$ </td><td> $\log_{10} x$ </td><td> $0.4343x (\log_\epsilon x - 1) + C$ </td></tr>
+<tr><td>$a^x \log_\epsilon a$ </td><td> $a^x$ </td><td> $\dfrac{a^x}{\log_\epsilon a} + C$ </td></tr>
+
+	<tr><td colspan=3><b><center>Trigonometrical.</center></b></td></tr>
+<tr><td>$\cos x$  </td><td> $\sin x$ </td><td> $-\cos x + C $ </td></tr>
+<tr><td>$-\sin x$ </td><td> $\cos x$ </td><td> $\sin x + C $ </td></tr>
+<tr><td>$\sec^2 x$</td><td> $\tan x$ </td><td> $-\log_\epsilon \cos x + C $ </td></tr>
+
+	<tr><td colspan=3><b><center>Circular (Inverse).</center></b></td></tr>
+<tr><td>$\dfrac{1}{\sqrt{(1-x^2)}}$ </td><td> $\arcsin x$ </td><td> $x · \arcsin x + \sqrt{1 - x^2} + C$ </td></tr>
+<tr><td>$-\dfrac{1}{\sqrt{(1-x^2)}}$ </td><td> $\arccos x$ </td><td> $x · \arccos x - \sqrt{1 - x^2} + C$ </td></tr>
+$\dfrac{1}{1+x^2}$ </td><td> $\arctan x$ </td><td> $x · \arctan x - \frac{1}{2} \log_\epsilon (1 + x^2) + C$ </td></tr>
+
+<tr><td colspan=3><b><center>Hyperbolic.</center></b></td></tr>
+<tr><td>$\cosh x   $ </td><td> $\sinh x$ </td><td> $\cosh x + C$ </td></tr>
+<tr><td>$\sinh x   $ </td><td> $\cosh x$ </td><td> $\sinh x + C$ </td></tr>
+<tr><td>$\text{sech}^2 x $ </td><td> $\tanh x$ </td><td> $\log_\epsilon \cosh x + C $ </td></tr>
+	<tr><td colspan=3><b><center>Miscellaneous.</center></b></td></tr>
+
+
+<tr><td>$-\dfrac{1}{(x + a)^2}$ </td><td> $\dfrac{1}{x + a}$ </td><td> $ \log_\epsilon (x+a) + C $ </td></tr>
+<tr><td>$-\dfrac{x}{(a^2 + x^2)^{\frac{3}{2}}}$
+  </td><td> $\dfrac{1}{\sqrt{a^2 + x^2}}$
+  </td><td> $\log_\epsilon (x + \sqrt{a^2 + x^2}) + C $ </td></tr>
+<tr><td>$\mp \dfrac{b}{(a ± bx)^2}$
+  </td><td> $\dfrac{1}{a ± bx}$
+  </td><td> $± \dfrac{1}{b} \log_\epsilon (a ± bx) + C $ </td></tr>
+<tr><td>$-\dfrac{3a^2x}{(a^2 + x^2)^{\frac{5}{2}}}$
+  </td><td> $\dfrac{a^2}{(a^2 + x^2)^{\frac{3}{2}}}$
+  </td><td> $\dfrac{x}{\sqrt{a^2 + x^2}} + C $ </td></tr>
+<tr><td>$ a · \cos ax$ </td><td> $\sin ax$ </td><td> $-\dfrac{1}{a} \cos ax + C $ </td></tr>
+<tr><td>$-a · \sin ax$ </td><td> $\cos ax$ </td><td> $ \dfrac{1}{a} \sin ax + C $ </td></tr>
+<tr><td>$ a · \sec^2ax$ </td><td> $\tan ax$ </td><td> $-\dfrac{1}{a} \log_\epsilon \cos ax + C $ </td></tr>
+<tr><td>$ \sin 2x$ </td><td> $\sin^2 x$ </td><td> $\dfrac{x}{2} - \dfrac{\sin 2x}{4} + C $ </td></tr>
+<tr><td>$-\sin 2x$ </td><td> $\cos^2 x$ </td><td> $\dfrac{x}{2} + \dfrac{\sin 2x}{4} + C $ </td></tr>
+<tr><td>$n · \sin^{n-1} x · \cos x$
+  </td><td> $ \sin^n x$
+  </td><td> $-\frac{\cos x}{n} \sin^{n-1} x
+     + \frac{n-1}{n} \int \sin^{n-2} x\, dx + C$ </td></tr>
+<tr><td>$-\dfrac{\cos x}{\sin^2 x}$
+  </td><td> $\dfrac{1}{\sin x}$
+  </td><td> $\log_\epsilon \tan \dfrac{x}{2} + C$ </td></tr>
+<tr><td>$-\dfrac{\sin 2x}{\sin^4 x}$
+  </td><td> $\dfrac{1}{\sin^2 x}$
+  </td><td> $ -\text{cotan} x + C$ </td></tr>
+<tr><td>$\dfrac{\sin^2 x - \cos^2 x}{\sin^2 x · \cos^2 x}$
+  </td><td> $ \dfrac{1}{\sin x · \cos x}$
+  </td><td> $ \log_\epsilon \tan x + C $ </td></tr>
+<tr><td>
+  $n · \sin mx · \cos nx + m · \sin nx · \cos mx $
+  </td><td> $\sin mx · \sin nx$
+  </td><td> $\frac{1}{2} \cos(m - n)x - \frac{1}{2} \cos(m + n)x + C$ </td></tr>
+<tr><td>$ 2a·\sin 2ax$ </td><td> $\sin^2 ax$ </td><td> $\dfrac{x}{2} - \dfrac{\sin 2ax}{4a} + C $ </td></tr>
+<tr><td>$-2a·\sin 2ax$ </td><td> $\cos^2 ax$ </td><td> $\dfrac{x}{2} + \dfrac{\sin 2ax}{4a} + C $ </td></tr>
+</table>
+
+
+
+
+<p>
+\AltChapter[Answers to Exercises]{Answers}
+
+<p>\begin{Answers}[3]{I}{(\Pageref{Ex:I}.)}{}
+(1) $\dfrac{dy}{dx} = 13x^{12}$.
+(2) $\dfrac{dy}{dx} = - \dfrac{3}{2} x^{-\frac{5}{2}}$.
+(3) $\dfrac{dy}{dx} = 2ax^{(2a-1)}$.
+
+(4) $\dfrac{du}{dt} = 2.4t^{1.4}$.
+(5) $\dfrac{dz}{du} = \dfrac{1}{3} u^{-\frac{2}{3}}$.
+(6) $\dfrac{dy}{dx} = -\dfrac{5}{3}x^{5}{-\frac{8}{3}}}$.
+
+(7) $\dfrac{du}{dx} = -\dfrac{8}{5}x^{-\frac{13}{5}}$.
+(8) $\dfrac{dy}{dx} = 2ax^{a-1}$.
+
+(9) $\dfrac{dy}{dx} = \dfrac{3}{q} x^{\frac{3-q}{q}}$.
+(10) $\dfrac{dy}{dx} = -\dfrac{m}{n} x^{-\frac{m+n}{n}}$.
+
+<p>
+\begin{Answers}[3]{II}{(\Pageref{Ex:II}.)}{}
+
+<p>(1) $\dfrac{dy}{dx} = 3ax^2$.
+(2) $\dfrac{dy}{dx} = 13 × \frac{3}{2}x^{\frac{1}{2}}$.
+(3) $\dfrac{dy}{dx} = 6x^{-\frac{1}{2}}$.
+
+<p>
+(4) $\dfrac{dy}{dx} = \dfrac{1}{2}c^{\frac{1}{2}} x^{-\frac{1}{2}}$.
+(5) $\dfrac{du}{dz} = \dfrac{an}{c} z^{n-1}$.
+(6) $\dfrac{dy}{dt} = 2.36t$.
+
+<p>
+(7) $\dfrac{dl_t}{dt} = 0.000012×l_0$.
+
+<p>(8) $\dfrac{dC}{dV} = abV^{b-1}$, $0.98$, $3.00$ and $7.47$ candle power per volt respectively.
+
+<p>(9) $\begin{aligned}[t]
+  \dfrac{dn}{dD} &= -\dfrac{1}{LD^2} \sqrt{\dfrac{gT}{\pi \sigma}}, &
+  \dfrac{dn}{dL} &= -\dfrac{1}{DL^2} \sqrt{\dfrac{gT}{\pi \sigma}}, \\
+
+  \dfrac{dn}{d \sigma}
+  &= -\dfrac{1}{2DL} \sqrt{\dfrac{gT}{\pi \sigma^3}}, &
+  \dfrac{dn}{dT} &=  \dfrac{1}{2DL} \sqrt{\dfrac{g}{\pi \sigma T}}.
+\end{aligned}$
+
+
+<p>(10) $\dfrac{\text{Rate of change of $P$ when $t$ varies}}
+            {\text{Rate of change of $P$ when $D$ varies}}
+  = - \dfrac{D}{t}$.
+
+<p>(11) $2\pi$, $2\pi r$, $\pi l$, $\frac{2}{3}\pi rh$, $8\pi r$, $4\pi r^2$. \hfil
+(12) $\dfrac{dD}{dT} = \dfrac{0.000012l_t}{\pi}$.
+\end{Answers}
+
+<p>
+\begin{Answers}{III}{(\Pageref{Ex:III}.)}{}
+
+<p>(1) (<em>a</em> ) $1 + x + \dfrac{x^2}{2} + \dfrac{x^3}{6} + \dfrac{x^4}{24} + \ldots$ \qquad
+    (<em>b</em> ) $2ax + b$. \qquad (<em>c</em> ) $2x + 2a$.
+
+<p>    (<em>d</em> ) $3x^2 + 6ax + 3a^2$.
+
+<p>
+(2) $\dfrac{dw}{dt} = a - bt$.
+(3) $\dfrac{dy}{dx} = 2x$.
+
+<p>
+(4) $14110x^4 - 65404x^3 - 2244x^2 + 8192x + 1379$.
+
+<p>
+(5) $\dfrac{dx}{dy} = 2y + 8$.
+(6) $185.9022654x^2 + 154.36334$.
+
+<p>
+(7) $\dfrac{-5}{(3x + 2)^2}$.
+(8) $\dfrac{6x^4 + 6x^3 + 9x^2}{(1 + x + 2x^2)^2}$.
+
+<p>
+(9) $\dfrac{ad - bc}{(cx + d)^2}$.
+(10) $\dfrac{anx^{-n-1} + bnx^{n-1} + 2nx^{-1}}{(x^{-n} + b)^2}$.
+
+<p>
+(11) $b + 2ct$.
+
+<p>(12) $R_0(a + 2bt)$,\quad $R_0 \left(a + \dfrac{b}{2\sqrt{t}}\right)$,\quad
+  $-\dfrac{R_0(a + 2bt)}{(1 + at + bt^2)^2}$\quad or\quad $\dfrac{R^2 (a + 2bt)}{R_0}$.
+
+<p>(13) $1.4340(0.000014t - 0.001024)$,\quad $-0.00117$,\quad $-0.00107$,\quad $-0.00097$.
+
+<p>(14) $\dfrac{dE}{dl} = b + \dfrac{k}{i}$,\quad $\dfrac{dE}{di} = -\dfrac{c + kl}{i^2}$.
+\end{Answers}
+
+<p>
+\begin{Answers}[2]{IV}{(\Pageref{Ex:IV}.)}{}
+
+<p>(1) $17 + 24x$;\quad $24$.
+(2) $\dfrac{x^2 + 2ax - a}{(x + a)^2}$;\quad $\dfrac{2a(a + 1)}{(x + a)^3}$.
+
+<p>
+(3) $1 + x + \dfrac{x^2}{1 × 2} + \dfrac{x^3}{1 × 2 × 3}$;\quad $1 + x + \dfrac{x^2}{1 × 2}$.
+
+<p>
+(4) (<em>Exercises III.</em> ):
+\begin{itemize}
+(1) -  (<em>a</em> ) $\dfrac{d^2 y}{dx^2} = \dfrac{d^3 y}{dx^3} = 1 + x + \frac{1}{2}x^2 + \frac{1}{6} x^3 + \ldots$. \\
+  (<em>b</em> ) $2a$, $0$.\hfil
+  (<em>c</em> ) $2$, $0$.\hfil
+  (<em>d</em> ) $6x + 6a$, $6$.
+
+<p>
+(2) -  $-b$, $0$.\hfil (3) $2$, $0$.\hfil
+
+<p>(4) -  $\begin{gathered}[t]
+    56440x^3 - 196212x^2 - 4488x + 8192. \\
+    169320x^2 - 392424x - 4488.
+    \end{gathered}$
+
+<p>(5) -  $2$, $0$. \hfil (6) $371.80453x$, $371.80453$. \hfil
+
+<p>(7) -  $\dfrac{30}{(3x + 2)^3}$,\quad $-\dfrac{270}{(3x + 2)^4}$.
+\end{itemize}
+
+<p><em>\normalfont(<em>Examples</em>, \Pageref{examples3</em> ):}
+\begin{itemize}
+(1) -  $\dfrac{6a}{b^2} x$,\quad $\dfrac{6a}{b^2}$.\hfil
+(2) $\dfrac{3a \sqrt{b}} {2 \sqrt{x}} - \dfrac{6b \sqrt[3]{a}}{x^3}$,\quad
+$\dfrac{18b \sqrt[3]{a}}{x^4} - \dfrac{3a \sqrt{b}}{4 \sqrt{x^3}}$.
+
+<p>(3)
+$\dfrac{2}{\sqrt[3]{\theta^8}} - \dfrac{1.056}{\sqrt[5]{\theta^{11}}}$,\quad
+$\dfrac{2.3232}{\sqrt[5]{\theta^{16}}} - \dfrac{16}{3 \sqrt[3]{\theta^{11}}}$.
+
+<p>(4) $\begin{gathered}[t]
+  810t^4 - 648t^3 + 479.52t^2 - 139.968t + 26.64. \\
+  3240t^3 - 1944t^2 + 959.04t - 139.968.
+  \end{gathered}$
+
+<p>(5)  $12x + 2$, $12$.\hfil
+(6) $6x^2 - 9x$,\quad $12x - 9$.\hfil
+
+<p>(7)
+$\begin{aligned}[t]
+&\dfrac{3}{4} \left(\dfrac{1}{\sqrt{\theta}} + \dfrac{1}{\sqrt{\theta^5}}\right)
++\dfrac{1}{4} \left(\dfrac{15}{\sqrt{\theta^7}} - \dfrac{1}{\sqrt{\theta^3}}\right). \\
+&\dfrac{3}{8} \left(\dfrac{1}{\sqrt{\theta^5}} - \dfrac{1}{\sqrt{\theta^3}}\right)
+-\dfrac{15}{8}\left(\dfrac{7}{\sqrt{\theta^9}} + \dfrac{1}{\sqrt{\theta^7}}\right).
+\end{aligned}$
+\end{itemize}
+\end{Answers}
+
+<p>
+\begin{Answers}{V}{(\Pageref{Ex:V}.)}{}
+
+<p>(2)  64; 147.2; and 0.32 feet per second.
+
+<p>
+(3)  $x = a - gt$; $\ddot{x} = -g$.
+
+<p>(4)  $45.1$ feet per second.
+
+<p>
+(5)  $12.4$ feet per second per second.\quad Yes.
+
+<p>(6) Angular velocity ${} = 11.2$ radians per second; angular
+  acceleration ${}= 9.6$ radians per second per second.
+
+<p>(7)  $v = 20.4t^2 - 10.8$.\quad $a = 40.8t$.\quad $172.8$ in./sec., $122.4 \text{in./sec}^2$.
+
+<p>(8)  $v = \dfrac{1}{30 \sqrt[3]{(t - 125)^2}}$,\quad $a = - \dfrac{1}{45 \sqrt[3]{(t - 125)^5}}$.
+
+<p>(9)  $v = 0.8 - \dfrac{8t}{(4 + t^2)^2}$,\quad $a = \dfrac{24t^2 - 32}{(4 + t^2)^3}$,\quad $0.7926$ and $0.00211$.
+
+<p>(10)  $n = 2$, $n = 11$.
+\end{Answers}
+
+
+<p>
+\begin{Answers}[3]{VI}{(\Pageref{Ex:VI}.)}{}
+
+<p>(1)  $\dfrac{x}{\sqrt{ x^2 + 1}}$.
+(2)  $\dfrac{x}{\sqrt{ x^2 + a^2}}$.
+(3)  $- \dfrac{1}{2 \sqrt{(a + x)^3}}$.
+
+<p>
+(4)  $\dfrac{ax}{\sqrt{(a - x^2)^3}}$.
+(5)  $\dfrac{2a^2 - x^2}{x^3 \sqrt{ x^2 - a^2}}$.
+
+<p>
+(6)  $ \dfrac{\frac{3}{2} x^2 \left[ \frac{8}{9} x \left( x^3 + a \right) - \left( x^4 + a \right) \right]}{(x^4 + a)^{\frac{2}{3}} (x^3 + a)^{\frac{3}{2}}}$
+(7)  $\dfrac{2a \left(x - a \right)}{(x + a)^3}$.
+
+<p>
+(8)  $\frac{5}{2} y^3$.
+(9)  $\dfrac{1}{(1 - \theta) \sqrt{1 - \theta^2}}$.
+\end{Answers}
+
+<p>
+\begin{Answers}{VII}{(\Pageref{Ex:VII}.)}{}
+
+<p>(1)  $\dfrac{dw}{dx} = \dfrac{3x^2 \left( 3 + 3x^3 \right)} {27 \left(\frac{1}{2} x^3 + \frac{1}{4} x^6 \right)^3}$.
+
+<p>(2)  $\dfrac{dv}{dx} = - \dfrac{12x}{\sqrt{1 + \sqrt{2} + 3x^2} \left(\sqrt{3} + 4 \sqrt{1 + \sqrt{2} + 3x^2}\right)^2}$.
+
+<p>(3)  $\dfrac{du}{dx} = - \dfrac{x^2 \left(\sqrt{3} + x^3 \right)} {\sqrt{ \left[ 1 + \left( 1 + \dfrac{x^3}{\sqrt{3}} \right) ^2 \right]^3}} $
+\end{Answers}
+
+<p>
+\begin{Answers}{VIII}{(\Pageref{Ex:VIII}.)}{}
+
+<p>(2)  $1.44$.
+
+<p>(4)  $\dfrac{dy}{dx} = 3x^2 + 3$; and the numerical values are:
+     $3$, $3 \frac{3}{4}$, $6$, and $15$.
+
+<p>(5)  $ ± \sqrt{2}$.
+
+<p>(6)  $ \dfrac{dy}{dx} = - \dfrac{4}{9} \dfrac{x}{y}$. Slope is zero where $x = 0$; and is $\mp \dfrac{1}{3 \sqrt{2}}$ where $x = 1$.
+
+<p>(7)  $m = 4$, $n = -3$.
+
+<p>(8)  Intersections at $x = 1$, $x = -3$. Angles $153°\;26'$, $2°\;28'$.
+
+<p>(9)  Intersection at $x = 3.57$, $y = 3.50$. Angle $16°\;16'$.
+
+<p>(10)  $x = \frac{1}{3}$, $y = 2 \frac{1}{3}$, $b = -\frac{5}{3}$.
+\end{Answers}
+
+
+<p>
+\begin{Answers}{IX}{(\Pageref{Ex:IX}.)}{}
+
+<p>(1)  Min.: $x = 0$, $y = 0$; max.: $x = -2$, $y = -4$.
+
+<p>
+(2)  $x = a$.
+
+<p>(4)  $25 \sqrt{3}$ square inches.
+
+<p>
+(5)  $\dfrac{dy}{dx} = - \dfrac{10}{x^2} + \dfrac{10}{(8 - x)^2}$; $x = 4$; $y = 5$.
+
+<p>(6)  Max. for $x = -1$; min. for $x = 1$.
+
+<p>(7)  Join the middle points of the four sides.
+
+<p>(8)  $r = \frac{2}{3} R$, $r = \dfrac{R}{2}$, no max.
+
+<p>(9)  $r = R \sqrt{\dfrac{2}{3}}$, $r = \dfrac{R}{\sqrt{2}}$, $r = 0.8506R$.
+
+<p>(10)  At the rate of $\dfrac{8}{r}$ square feet per second.
+
+<p>
+(11)  $r = \dfrac{R \sqrt{8}}{3}$.
+(12)  $n = \sqrt{\dfrac{NR}{r}}$.
+\end{Answers}
+
+<p>
+\begin{Answers}{X}{(\Pageref{Ex:X}.)}{}
+
+<p>(1)  Max.: $x = -2.19$, $y = 24.19$; min.:, $x = 1.52$, $y = -1.38$.
+
+<p>(2)  $\dfrac{dy}{dx} = \dfrac{b}{a} - 2cx$; $\dfrac{d^2 y}{dx^2} = -2c$; $x = \dfrac{b}{2ac}$ (<em>a maximum</em>).
+
+<p>(3)  (<em>a</em> ) One maximum and two minima.  \\
+(<em>b</em> ) One maximum. ($x = 0$; other points unreal.)
+
+<p>
+(4)  Min.: $x = 1.71$, $y = 6.14$.
+
+<p>(5)  Max: $x = -.5$, $y = 4$.
+
+<p>
+(6)  Max.: $x = 1.414$, $y = 1.7675$.  \\
+Min.: $x = -1.414$, $y = 1.7675$.
+
+<p>(7)  Max.: $x = -3.565$, $y = 2.12$.  \\
+Min.: $x = +3.565$, $y = 7.88$.
+
+<p>
+(8)  $0.4N$, $0.6N$.
+
+<p>(9)  $x = \sqrt{\dfrac{a}{c}}$.
+
+<p>
+(10)  Speed $8.66$ nautical miles per hour. Time taken $115.47$ hours. \\
+Minimum cost £$112$. $12$<em>s</em> .
+
+
+<p>(11)  Max. and min. for $x = 7.5$, $y = ±5.414$. (See example
+no. 10, \Pageref{Example10}.)
+
+<p>(12)  Min.: $x = \frac{1}{2}$, $y= 0.25$; max.: $x = - \frac{1}{3}$, $y= 1.408$.
+\end{Answers}
+
+<p>
+\begin{Answers}[3]{XI}{(\Pageref{Ex:XI}.)}{}
+
+<p>(1)  $\dfrac{2}{ x - 3} + \dfrac{1}{ x + 4}$.
+
+<p>(2)  $\dfrac{1}{ x - 1} + \dfrac{2}{ x - 2}$.
+
+<p>(3)  $\dfrac{2}{ x - 3} + \dfrac{1}{ x + 4}$.
+
+<p>
+(4)  $\dfrac{5}{ x - 4} - \dfrac{4}{ x - 3}$.
+
+<p>(5)  $\dfrac{19}{13(2x + 3)} - \dfrac{22}{13(3x - 2)}$.
+
+<p>
+(6)  $\dfrac{2}{ x - 2} + \dfrac{4}{ x - 3} - \dfrac{5}{ x - 4}$.
+
+<p>(7)  $\dfrac{1}{6(x - 1)} + \dfrac{11}{15(x + 2)} + \dfrac{1}{10(x - 3)}$.
+
+<p>(8)  $\dfrac{7}{9(3x + 1)} + \dfrac{71}{63(3x - 2)} - \dfrac{5}{7(2x + 1)}$.
+
+<p>
+(9)  $\dfrac{1}{3(x - 1)} + \dfrac{2x + 1}{3(x^2 + x + 1)}$.
+
+<p>(10) $x + \dfrac{2}{3(x + 1)} + \dfrac{1 - 2x}{3(x^2 - x + 1)}$.
+
+<p>
+(11) $\dfrac{3}{(x + 1)} + \dfrac{2x + 1}{x^2 + x + 1}$.
+
+<p>(12) $\dfrac{1}{ x - 1} - \dfrac{1}{ x - 2} + \dfrac{2}{(x - 2)^2}$.
+
+<p>
+(13) $\dfrac{1}{4(x - 1)} - \dfrac{1}{4(x + 1)} + \dfrac{1}{2(x + 1)^2}$.
+
+<p>(14) $\dfrac{4}{9(x - 1)} - \dfrac{4}{9(x + 2)} - \dfrac{1}{3(x + 2)^2}$.
+
+<p>(15) $\dfrac{1}{ x + 2} - \dfrac{x - 1}{ x^2 + x + 1} - \dfrac{1}{(x^2 + x + 1)^2}$.
+
+<p>(16) $\dfrac{5}{ x + 4} -\dfrac{32}{(x + 4)^2} + \dfrac{36}{(x + 4)^3}$.
+
+<p>(17) $\dfrac{7}{9(3x - 2)^2} + \dfrac{55}{9(3x - 2)^3} + \dfrac{73}{9(3x - 2)^4}$.
+
+<p>(18) $\dfrac{1}{6(x - 2)} + \dfrac{1}{3(x - 2)^2} - \dfrac{x}{6(x^2 + 2x + 4)}$.
+\end{Answers}
+
+
+<p>
+\begin{Answers}[3]{XII}{(\Pageref{Ex:XII}.)}{}
+
+<p>(1)  $ab(\epsilon^{ax} + \epsilon^{-ax})$.
+
+<p>(2)  $2at + \dfrac{2}{t}$.
+
+<p>(3)  $\log_\epsilon n$.
+
+<p>
+(5)  $npv^{n-1}$.
+
+<p>(6)  $\dfrac{n}{x}$.
+
+<p>(7)  $\dfrac{3\epsilon^{- \frac{x}{x-1}}}{(x - 1)^2}$.
+
+<p>
+(8)  $6x \epsilon^{-5x} - 5(3x^2 + 1)\epsilon^{-5x}$.
+
+<p>(9)  $\dfrac{ax^{a-1}}{x^a + a}$.
+
+<p>
+(10)  $\left(\dfrac{6x}{3x^2-1} + \dfrac{1}{2\left(\sqrt x + x\right)}\right) \left(3x^2-1\right)\left(\sqrt x + 1\right)$.
+
+<p>(11)  $\dfrac{1 - \log_\epsilon \left(x + 3\right)}{\left(x + 3\right)^2}$.
+
+<p>
+(12)  $a^x\left(ax^{a-1} + x^a \log_\epsilon a\right)$.
+
+<p>(14)  Min.: $y = 0.7$ for $x = 0.694$.
+
+<p>
+(15)  $\dfrac{1 + x}{x}$.
+
+<p>(16)  $\dfrac{3}{x} (\log_\epsilon ax)^2$.
+\end{Answers}
+
+<p>
+\begin{Answers}{XIII}{(\Pageref{Ex:XIII}.)}{}
+
+<p>(1)  Let $\dfrac{t}{T} = x$ ($\therefore t = 8x$), and use the Table on \Pageref[page]{littletable}.
+
+<p>(2)  $T = 34.627$; $159.46$ minutes.
+
+<p>(3)  Take $2t = x$; and use the Table on \Pageref[page]{littletable}.
+
+<p>(5)  (<em>a</em> ) $x^x \left(1 + \log_\epsilon x\right)$;\quad
+(<em>b</em> ) $2x(\epsilon^x)^x$;\quad
+(<em>c</em> ) $\epsilon^{x^x} × x^x \left(1 + \log_\epsilon x\right)$.
+
+<p>
+(6)  $0.14$ second.
+
+<p>(7)  (<em>a</em> ) $1.642$;\quad (<em>b</em> ) $15.58$.
+
+<p>
+(8)  $\mu = 0.00037$, $31^m \frac{1}{4}$. 
+
+<p>(9)  $i$ is $63.4$\% of $i_0$, $220$ kilometres.
+
+<p>(10)  $0.133$, $0.145$, $0.155$, mean $0.144$; $-10.2$\%, $-0.9$\%, $+77.2$\%.
+
+<p>
+(11)  Min. for $x = \dfrac{1}{\epsilon}$.
+
+<p>(12)  Max. for $x = \epsilon$.
+
+<p>
+(13)  Min. for $x = \log_\epsilon a$.
+\end{Answers}
+
+
+<p>
+\begin{Answers}{XIV}{(\Pageref{Ex:XIV}.)}{}
+
+<p>(1) (i) $\dfrac{dy}{d\theta} = A \cos \left( \theta - \dfrac{\pi}{2} \right)$;
+
+<p>(ii) $\dfrac{dy}{d\theta} = 2\sin\theta \cos\theta = \sin2\theta$ and $\dfrac{dy}{d\theta} = 2\cos2\theta$;
+
+<p>(iii) $\dfrac{dy}{d\theta} = 3\sin^2 \theta \cos\theta$ and $\dfrac{dy}{d\theta} = 3\cos3\theta$.
+
+<p>
+(2)  $\theta = 45°$ or $\dfrac{\pi}{4}$ radians.
+
+<p>(3)  $\dfrac{dy}{dt} = -n \sin 2\pi nt$.
+
+<p>
+(4)  $a^x \log_\epsilon a \cos a^x$.
+
+<p>(5)  $\dfrac{\cos x}{\sin x} = \cotan x$
+
+<p>
+(6)  $18.2 \cos \left(x + 26° \right)$.
+
+<p>(7) The slope is $\dfrac{dy}{d\theta} = 100\cos\left(\theta - 15° \right)$, which is a maximum
+ when $(\theta -15°) = 0$, or $\theta = 15°$; the value of the slope
+ being then ${}= 100$. When $\theta = 75°$ the slope is
+ $100\cos(75°  - 15°) = 100\cos 60° = 100 × \frac{1}{2} = 50$.
+
+<p>(8) $\begin{aligned}[t]
+  \cos\theta \sin2\theta + 2\cos2\theta \sin\theta
+  &= 2\sin\theta\left(\cos^2 \theta + \cos2\theta\right) \\
+  &= 2\sin\theta\left(3\cos^2 \theta - 1\right).
+  \end{aligned}$
+
+<p>(9) $amn\theta^{n-1} \tan^{m-1}\left(\theta^n\right)\sec^2 \theta^n$.
+
+<p>(10) $\epsilon^x \left(\sin^2 x + \sin2x\right)$;\quad $\epsilon^x \left(\sin^2 x + 2\sin2x + 2\cos2x\right)$.
+
+<p>(11) $\left(i\right) \dfrac{dy}{dx} = \dfrac{ab}{\left(x + b\right)^2}$;\quad
+(ii) $\dfrac{a}{b} \epsilon^{-\frac{x}{b}}$;\quad
+(iii) $\dfrac{1}{90}° × \dfrac{ab}{\left(b^2 + x^2\right)}$.
+
+<p>(12) (i) $\dfrac{dy}{dx} = \sec x \tan x$;
+
+<p>(ii) $\dfrac{dy}{dx} = - \dfrac{1}{\sqrt{ 1 - x^2}}$;
+
+<p>(iii) $\dfrac{dy}{dx} = \dfrac{1}{ 1 + x^2}$;
+
+<p>(iv) $\dfrac{dy}{dx} = \dfrac{1}{x \sqrt{ x^2 - 1}}$;
+
+<p>(v) $\dfrac{dy}{dx} = \dfrac{\sqrt{ 3\sec x} \left(3\sec^2 x - 1\right)}{2}$.
+
+<p>(13) $\dfrac{dy}{d\theta} = 4.6\left(2\theta + 3\right)^{1.3} \cos\left(2\theta + 3\right)^{2.3}$.
+
+
+<p>(14)  $\dfrac{dy}{d\theta} = 3\theta^2 + 3\cos \left( \theta + 3 \right) - \log_\epsilon 3 \left( \cos\theta × 3^{\sin\theta} + 3\theta \right)$.
+
+<p>(15)  $\theta = \cot\theta; \theta = ±0.86$; is max. for $+\theta$, min. for $-\theta$.
+\end{Answers}
+
+<p>
+\begin{Answers}{XV}{(\Pageref{Ex:XV}.)}{}
+
+<p>(1)  $x^3 - 6x^2 y - 2y^2;\quad \frac{1}{3} - 2x^3 - 4xy$.
+
+<p>(2)  $2xyz + y^2 z + z^2 y + 2xy^2 z^2$;\\
+     $2xyz + x^2 z + xz^2 + 2x^2 yz^2$;\\
+     $2xyz + x^2 y + xy^2 + 2x^2 y^2 z$.
+
+<p>(3)  $\dfrac{1}{r} \{ \left(x - a\right) + \left( y - b \right) + \left( z - c \right) \} = \dfrac{ \left( x + y + z \right) - \left( a + b + c \right) }{r}$; $\dfrac{3}{r}$.
+
+<p>(4)  $dy = vu^{v-1}\, du + u^v \log_\epsilon u\, dv$.
+
+<p>(5)  $dy = 3\sin v u^2\, du + u^3 \cos v\, dv$,\\
+     $dy = u \sin x^{u-1} \cos x\, dx + (\sin x)^u \log_\epsilon \sin x du$,\\
+     $dy = \dfrac{1}{v}\, \dfrac{1}{u}\, du - \log_\epsilon u \dfrac{1}{v^2}\, dv$.
+
+<p>(7)  Minimum for $x = y = -\frac{1}{2}$.
+
+<p>(8)  (<em>a</em> ) Length $2$ feet, width = depth = $1$ foot, vol. = $2$ cubic
+ feet.
+
+<p> (<em>b</em> ) Radius = $\dfrac{2}{\pi}$ feet = $7.46$ in., length = $2$ feet, vol. = $2.54$.
+
+<p>(9)   All three parts equal; the product is maximum.
+
+<p>(10)  Minimum for $x = y = 1$.
+
+<p>(11)  Min.: $x = \frac{1}{2}$ and $y = 2$.
+
+<p>(12)  Angle at apex $= 90°$; equal sides = length = $\sqrt[3]{2V}$.
+\end{Answers}
+
+<p>
+\begin{Answers}[3]{XVI}{(\Pageref{Ex:XVI}.)}{}
+
+<p>(1)  $1\frac{1}{3}$.
+
+<p>(2)  $0.6344$.
+
+<p>(3)  $0.2624$.
+
+<p>
+(4)  (<em>a</em> ) $y = \frac{1}{8} x^2 + C$;\quad
+     (<em>b</em> ) $y = \sin x + C$.
+
+<p>(5)  $y = x^2 + 3x + C$.
+\end{Answers}
+
+
+<p>
+\begin{Answers}[3]{XVII}{(\Pageref{Ex:XVII}.)}{}
+
+<p>(1) $\dfrac{4\sqrt{a} x^{\frac{3}{2}}}{3} + C$.
+
+<p>(2) $-\dfrac{1}{x^3} + C$.
+
+<p>(3) $\dfrac{x^4}{4a} + C$.
+
+<p>
+(4) $\tfrac{1}{3} x^3 + ax + C$.
+
+<p>(5) $-2x^{-\frac{5}{2}} + C$.
+
+<p>
+(6) $x^4 + x^3 + x^2 + x + C$.
+
+<p>(7) $\dfrac{ax^2}{4} + \dfrac{bx^3}{9} + \dfrac{cx^4}{16} + C$.
+
+<p>
+(8)  $\dfrac{x^2 + a}{x + a} = x - a + \dfrac{a^2 + a}{x + a}$ by division. Therefore the answer
+is $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.
+  (See pages \pageref{intex1} and \pageref{intex2}.)
+
+<p>
+(9) $\dfrac{x^4}{4} + 3x^3 + \dfrac{27}{2} x^2 + 27x + C$.
+
+<p>(10) $\dfrac{x^3}{3} + \dfrac{2 - a}{2} x^2 - 2ax + C$.
+
+<p>
+(11) $a^2(2x^{\frac{3}{2}} + \tfrac{9}{4} x^{\frac{4}{3}}) + C$.
+
+<p>(12) $-\tfrac{1}{3} \cos\theta - \tfrac{1}{6} \theta + C$.
+
+<p>
+(13) $\dfrac{\theta}{2} + \dfrac{\sin 2a\theta}{4a} + C$.
+
+<p>(14) $\dfrac{\theta}{2} - \dfrac{\sin 2\theta}{4} + C$.
+
+<p>
+(15) $\dfrac{\theta}{2} - \dfrac{\sin 2a\theta}{4a} + C$.
+
+<p>(16) $\tfrac{1}{3} \epsilon^{3x}$. % [F1: +C?]
+
+<p>
+(17) $\log(1 + x) + C$.
+
+<p>(18) $-\log_\epsilon (1 - x) + C$.
+\end{Answers}
+
+<p>
+\begin{Answers}{XVIII}{(\Pageref{Ex:XVIII}.)}{}
+
+<p>(1) $\text{Area} = 60$; $\text{mean ordinate} = 10$.
+
+<p>(2) $\text{Area} = \frac{2}{3}$ of $a × 2a \sqrt{a}$.
+
+<p>(3) $\text{Area} = 2$; $\text{mean ordinate} = \dfrac{2}{\pi} = 0.637$.
+
+<p>(4) $\text{Area} = 1.57$; $\text{mean ordinate} = 0.5$.
+
+<p>
+(5) $0.572$, $0.0476$.
+
+<p>(6) $\text{Volume} = \pi r^2 \dfrac{h}{3}$.
+
+<p>
+(7) $1.25$.
+
+<p>(8) $79.4$.
+
+<p>
+(9) $\text{Volume} = 4.9348$; $\text{area of surface} = 12.57$ (from $0$ to $\pi$).
+
+<p>(10) $a\log_\epsilon a$,\quad $\dfrac{a}{a - 1} \log_\epsilon a$.
+
+<p>(12) $\text{Arithmetical mean} = 9.5$; $\text{quadratic mean} = 10.85$.
+
+
+<p>(13) $\text{Quadratic mean} = \dfrac{1}{\sqrt{2}} \sqrt{A_1^2 + A_3^2}$; $\text{arithmetical mean} = 0$.
+
+<p>The first involves a somewhat difficult integral, and may be
+stated thus: By definition the quadratic mean will be
+\[
+\sqrt{\dfrac{1}{2\pi} \int_0^{2\pi} (A_1 \sin x + A_3 \sin 3x)^2\, dx}. 
+\]
+Now the integration indicated by
+\[
+\int (A_1^2 \sin^2 x + 2A_1 A_3 \sin x \sin 3x + A_3^2 \sin^2 3x)\, dx
+\]
+is more readily obtained if for $\sin^2 x$ we write
+\[
+\dfrac{1 - \cos 2x}{2}.
+\]
+For $2\sin x \sin 3x$ we write $\cos 2x - \cos 4x$; and, for $\sin^2 3x$,
+\[
+\dfrac{1 - \cos 6x}{2}.
+\]
+
+<p>Making these substitutions, and integrating, we get (see
+\Pageref{cosax})
+\[
+\dfrac{A_1^2}{2} \left( x - \dfrac{\sin 2x}{2} \right)
+ + A_1 A_3 \left( \dfrac{\sin 2x}{2} - \dfrac{\sin 4x}{4} \right)
+ + \dfrac{A_3^2}{2} \left( x - \dfrac{\sin 6x}{6} \right).
+\]
+
+<p>At the lower limit the substitution of $0$ for $x$ causes all
+this to vanish, whilst at the upper limit the substitution
+of $2\pi$ for $x$ gives $A_1^2 \pi + A_3^2 \pi$. And hence the
+answer follows.
+
+<p>(14) Area is $62.6$ square units. Mean ordinate is $10.42$.
+
+<p>(16) $436.3$. (This solid is pear shaped.)
+\end{Answers}
+
+<p>
+\begin{Answers}[2]{XIX}{(\Pageref{Ex:XIX}.)}{}
+
+<p>(1) $\dfrac{x\sqrt{a^2 - x^2}}{2} + \dfrac{a^2}{2} \sin^{-1} \dfrac{x}{a} + C$.
+
+<p>(2) $\dfrac{x^2}{2}(\log_\epsilon x - \tfrac{1}{2}) + C$.
+
+<p>
+(3) $\dfrac{x^{a+1}}{a + 1} \left(\log_\epsilon x - \dfrac{1}{a + 1}\right) + C$.
+
+<p>(4) $\sin \epsilon^x + C$.
+
+<p>
+(5) $\sin(\log_\epsilon x) + C$.
+
+<p>(6) $\epsilon^x (x^2 - 2x + 2) + C$.
+
+<p>
+(7) $\dfrac{1}{a + 1} (\log_\epsilon x)^{a+1} + C$.
+
+
+<p>(8) $\log_\epsilon(\log_\epsilon x) + C$.
+
+<p>
+(9) $2\log_\epsilon(x - 1) + 3\log_\epsilon(x + 2) + C$.
+
+<p>(10) $\frac{1}{2} \log_\epsilon(x - 1) + \frac{1}{5} \log_\epsilon(x - 2) + \frac{3}{10} \log_\epsilon(x + 3) + C$.
+
+<p>
+(11) $\dfrac{b}{2a} \log_\epsilon \dfrac{x - a}{x + a} + C$.
+
+<p>(12) $\log_\epsilon \dfrac{x^2 - 1}{x^2 + 1} + C$.
+
+<p>
+(13) $\frac{1}{4} \log_\epsilon \dfrac{1 + x}{1 - x} + \frac{1}{2} \arctan x + C$.
+
+<p>(14) $\dfrac{1}{\sqrt{a}} \log_\epsilon \dfrac{\sqrt{a} - \sqrt{a - bx^2}}{x\sqrt{a}}$.\quad (Let $\dfrac{1}{x} = v$; then, in the result,
+let $\sqrt{v^2 - \dfrac{b}{a}} = v - u$.) 
+
+<p>You had better differentiate now the answer and work
+back to the given expression as a check.
+\end{Answers}
+
+<p>Every earnest student is exhorted to manufacture more
+examples for himself at every stage, so as to test his powers.
+When integrating he can always test his answer by differentiating
+it, to see whether he gets back the expression from
+which he started.
+
+<p>There are lots of books which give examples for practice.
+It will suffice here to name two: R. G. Blaine's <em>The Calculus
+and its Applications</em> , and F. M. Saxelby's <em>A Course in Practical
+Mathematics</em> .
+</body>
+</html>

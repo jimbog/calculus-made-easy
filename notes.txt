@@ -1,0 +1,29 @@
+
+-pouzivam tag <note> pro poznamky, - pak zmenit za neco zobrazitelnyho
+- <img 1 018a> pro obrazek cislo 1 s filename 018a...pdf
+
+- make special page with "thanks"
+
+- blockquote (2. chapter)
+
+\\Chapter\{[A-Z]+\}\{([^}]+)\}
+
+\\Chapter\{([^}]+)\}
+
+- <a href="#figure4">Figure 4</a>
+
+
+
+BAD:
+Pagelabel
+intertext - uprostred- bacha
+DPtypo
+Figs
+hfill
+Illustration
+\text
+\item
+\ (<- mezera)
+TmpColA...
+"algebraic division"
+\\ na koncich radku
