@@ -255,7 +255,7 @@ y = \dfrac{1}{2a} \log_\epsilon \dfrac{a+x}{a-x} + C?
 \]
 yet the latter is the <em>solution</em>  of the former.
 
-<p>*<note>This means that the actual result of solving it is called its
+<p><note>*This means that the actual result of solving it is called its
 “solution.” But many mathematicians would say, with Professor
 Forsyth, “every differential equation <em>is considered as solved</em> when
 the value of the dependent variable is expressed as a function of
@@ -286,36 +286,59 @@ the “solutions” for different original forms.
 <p>
 <hr><h3>Exercises XIX</h3> 
 
-<p><problems> [2]
-(1) Find $\int \sqrt {a^2 - x^2}\, dx$.
-(2) Find $\int x \log_\epsilon x\, dx$.
-
-<p>
-(3) Find $\int x^a \log_\epsilon x\, dx$.
-(4) Find $\int \epsilon^x \cos \epsilon^x\, dx$.
-
-<p>
-(5) Find $\int \dfrac{1}{x} \cos (\log_\epsilon x)\, dx$.
-(6) Find $\int x^2 \epsilon^x\, dx$.
-
-<p>
-(7) Find $\int \dfrac{(\log_\epsilon x)^a}{x}\, dx$.
-(8) Find $\int \dfrac{dx}{x \log_\epsilon x}$.
-
-<p>
-(9) Find $\int \dfrac{5x+1}{x^2 +x-2}\, dx$.
-(10) Find $\int \dfrac{(x^2 -3)\, dx}{x^3 - 7x+6}$.
-
-<p>
-(11) Find $\int \dfrac{b\, dx}{x^2 -a^2}$.
-(12) Find $\int \dfrac{4x\, dx}{x^4 -1}$.
-
-<p>
-(13) Find $\int \dfrac{dx}{1-x^4}$.
-(14) Find $\int \dfrac{dx}{x \sqrt {a-bx^2}}$.
+<p><problems> 
+<p>(1) Find $\int \sqrt {a^2 - x^2}\, dx$.
+<p>(2) Find $\int x \log_\epsilon x\, dx$.
+<p>(3) Find $\int x^a \log_\epsilon x\, dx$.
+<p>(4) Find $\int \epsilon^x \cos \epsilon^x\, dx$.
+<p>(5) Find $\int \dfrac{1}{x} \cos (\log_\epsilon x)\, dx$.
+<p>(6) Find $\int x^2 \epsilon^x\, dx$.
+<p>(7) Find $\int \dfrac{(\log_\epsilon x)^a}{x}\, dx$.
+<p>(8) Find $\int \dfrac{dx}{x \log_\epsilon x}$.
+<p>(9) Find $\int \dfrac{5x+1}{x^2 +x-2}\, dx$.
+<p>(10) Find $\int \dfrac{(x^2 -3)\, dx}{x^3 - 7x+6}$.
+<p>(11) Find $\int \dfrac{b\, dx}{x^2 -a^2}$.
+<p>(12) Find $\int \dfrac{4x\, dx}{x^4 -1}$.
+<p>(13) Find $\int \dfrac{dx}{1-x^4}$.
+<p>(14) Find $\int \dfrac{dx}{x \sqrt {a-bx^2}}$.
 </problems> 
 
 <p><h3 class="answers">Answers</h3>
 
+<p>(1)  $\dfrac{x\sqrt{a^2 - x^2}}{2} + \dfrac{a^2}{2} \sin^{-1} \dfrac{x}{a} + C$.
+
+<p>(2)  $\dfrac{x^2}{2}(\log_\epsilon x - \tfrac{1}{2}) + C$.
+
+
+<p>(3)  $\dfrac{x^{a+1}}{a + 1} \left(\log_\epsilon x - \dfrac{1}{a + 1}\right) + C$.
+
+<p>(4)  $\sin \epsilon^x + C$.
+
+
+<p>(5)  $\sin(\log_\epsilon x) + C$.
+
+<p>(6)  $\epsilon^x (x^2 - 2x + 2) + C$.
+
+
+<p>(7)  $\dfrac{1}{a + 1} (\log_\epsilon x)^{a+1} + C$.
+
+
+<p>(8)  $\log_\epsilon(\log_\epsilon x) + C$.
+
+
+<p>(9)  $2\log_\epsilon(x - 1) + 3\log_\epsilon(x + 2) + C$.
+
+<p>(10)  $\frac{1}{2} \log_\epsilon(x - 1) + \frac{1}{5} \log_\epsilon(x - 2) + \frac{3}{10} \log_\epsilon(x + 3) + C$.
+
+
+<p>(11)  $\dfrac{b}{2a} \log_\epsilon \dfrac{x - a}{x + a} + C$.
+
+<p>(12)  $\log_\epsilon \dfrac{x^2 - 1}{x^2 + 1} + C$.
+
+
+<p>(13)  $\frac{1}{4} \log_\epsilon \dfrac{1 + x}{1 - x} + \frac{1}{2} \arctan x + C$.
+
+<p>(14)  $\dfrac{1}{\sqrt{a}} \log_\epsilon \dfrac{\sqrt{a} - \sqrt{a - bx^2}}{x\sqrt{a}}$. (Let $\dfrac{1}{x} = v$; then, in the result,
+let $\sqrt{v^2 - \dfrac{b}{a}} = v - u$.) 
 <p>
 

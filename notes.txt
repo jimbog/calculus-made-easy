@@ -1,3 +1,4 @@
+- links "next chapter" ?
 
 -pouzivam tag <note> pro poznamky, - pak zmenit za neco zobrazitelnyho
 - <img 1 018a> pro obrazek cislo 1 s filename 018a...pdf
@@ -12,6 +13,7 @@
 
 - <a href="#figure4">Figure 4</a>
 
+-<problems>
 
 
 BAD:

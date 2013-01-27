@@ -532,11 +532,11 @@ given solid space.
 
 <p>
 (2) Find  $\int \frac{3}{x^4}\, dx$.
-(3) Find  $\int \frac{1}{a} x^3\, dx$.
+<p>(3) Find  $\int \frac{1}{a} x^3\, dx$.
 
 <p>
 (4) Find  $\int (x^2 + a)\, dx$.
-(5) Integrate $5x^{-\frac{7}{2}}$.
+<p>(5) Integrate $5x^{-\frac{7}{2}}$.
 
 <p>
 (6) Find  $\int (4x^3 + 3x^2 + 2x + 1)\, dx$.
@@ -545,7 +545,7 @@ given solid space.
 
 <p>
 (8) Find $\int \left(\frac{x^2 + a}{x + a}\right) dx$.
-(9)  Find $\int (x + 3)^3\, dx$.
+<p>(9)  Find $\int (x + 3)^3\, dx$.
 
 <p>
 (10) Find $\int (x + 2)(x - a)\, dx$.
@@ -556,18 +556,63 @@ given solid space.
 
 <p>
 (13) Find  $\int \cos^2 a \theta\, d\theta$.
-(14) Find  $\int \sin^2 \theta\, d\theta$.
+<p>(14) Find  $\int \sin^2 \theta\, d\theta$.
 
 <p>
 (15) Find  $\int \sin^2 a \theta\, d\theta$.
-(16) Find  $\int \epsilon^{3x}\, dx$.
+<p>(16) Find  $\int \epsilon^{3x}\, dx$.
 
 <p>
 (17) Find  $\int \dfrac{dx}{1 + x}$.
-(18) Find  $\int \dfrac{dx}{1 - x}$.
+<p>(18) Find  $\int \dfrac{dx}{1 - x}$.
 </problems> 
 
 <p><h3 class="answers">Answers</h3>
 
+<p>(1)  $\dfrac{4\sqrt{a} x^{\frac{3}{2}}}{3} + C$.
+
+<p>(2)  $-\dfrac{1}{x^3} + C$.
+
+<p>(3)  $\dfrac{x^4}{4a} + C$.
+
+
+<p>(4)  $\tfrac{1}{3} x^3 + ax + C$.
+
+<p>(5)  $-2x^{-\frac{5}{2}} + C$.
+
+
+<p>(6)  $x^4 + x^3 + x^2 + x + C$.
+
+<p>(7)  $\dfrac{ax^2}{4} + \dfrac{bx^3}{9} + \dfrac{cx^4}{16} + C$.
+
+
+<p>(8)   $\dfrac{x^2 + a}{x + a} = x - a + \dfrac{a^2 + a}{x + a}$ by division. Therefore the answer
+is $\dfrac{x^2}{2} - ax + (a^2 + a)\log_\epsilon (x + a) + C$.
+  (See pages \pageref{intex1} and \pageref{intex2}.)
+
+
+<p>(9)  $\dfrac{x^4}{4} + 3x^3 + \dfrac{27}{2} x^2 + 27x + C$.
+
+<p>(10)  $\dfrac{x^3}{3} + \dfrac{2 - a}{2} x^2 - 2ax + C$.
+
+
+<p>(11)  $a^2(2x^{\frac{3}{2}} + \tfrac{9}{4} x^{\frac{4}{3}}) + C$.
+
+<p>(12)  $-\tfrac{1}{3} \cos\theta - \tfrac{1}{6} \theta + C$.
+
+
+<p>(13)  $\dfrac{\theta}{2} + \dfrac{\sin 2a\theta}{4a} + C$.
+
+<p>(14)  $\dfrac{\theta}{2} - \dfrac{\sin 2\theta}{4} + C$.
+
+
+<p>(15)  $\dfrac{\theta}{2} - \dfrac{\sin 2a\theta}{4a} + C$.
+
+<p>(16)  $\tfrac{1}{3} \epsilon^{3x}$. % [F1: +C?]
+
+
+<p>(17)  $\log(1 + x) + C$.
+
+<p>(18)  $-\log_\epsilon (1 - x) + C$.
 <p>
 

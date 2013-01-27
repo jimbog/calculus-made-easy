@@ -650,6 +650,68 @@ $y=±\dfrac{x}{6}\sqrt{x(10-x)}$ rotating about the axis of $x$.
 </problems> 
 <p><h3 class="answers">Answers</h3>
 
+<p>(1)  $\text{Area} = 60$; $\text{mean ordinate} = 10$.
+
+<p>(2)  $\text{Area} = \frac{2}{3}$ of $a × 2a \sqrt{a}$.
+
+<p>(3)  $\text{Area} = 2$; $\text{mean ordinate} = \dfrac{2}{\pi} = 0.637$.
+
+<p>(4)  $\text{Area} = 1.57$; $\text{mean ordinate} = 0.5$.
+
+
+<p>(5)  $0.572$, $0.0476$.
+
+<p>(6)  $\text{Volume} = \pi r^2 \dfrac{h}{3}$.
+
+
+<p>(7)  $1.25$.
+
+<p>(8)  $79.4$.
+
+
+<p>(9)  $\text{Volume} = 4.9348$; $\text{area of surface} = 12.57$ (from $0$ to $\pi$).
+
+<p>(10)  $a\log_\epsilon a$,\quad $\dfrac{a}{a - 1} \log_\epsilon a$.
+
+<p>(12)  $\text{Arithmetical mean} = 9.5$; $\text{quadratic mean} = 10.85$.
+
+
+<p>(13)  $\text{Quadratic mean} = \dfrac{1}{\sqrt{2}} \sqrt{A_1^2 + A_3^2}$; $\text{arithmetical mean} = 0$.
+
+The first involves a somewhat difficult integral, and may be
+stated thus: By definition the quadratic mean will be
+\[
+\sqrt{\dfrac{1}{2\pi} \int_0^{2\pi} (A_1 \sin x + A_3 \sin 3x)^2\, dx}. 
+\]
+Now the integration indicated by
+\[
+\int (A_1^2 \sin^2 x + 2A_1 A_3 \sin x \sin 3x + A_3^2 \sin^2 3x)\, dx
+\]
+is more readily obtained if for $\sin^2 x$ we write
+\[
+\dfrac{1 - \cos 2x}{2}.
+\]
+For $2\sin x \sin 3x$ we write $\cos 2x - \cos 4x$; and, for $\sin^2 3x$,
+\[
+\dfrac{1 - \cos 6x}{2}.
+\]
+
+Making these substitutions, and integrating, we get (see
+\Pageref{cosax})
+\[
+\dfrac{A_1^2}{2} \left( x - \dfrac{\sin 2x}{2} \right)
+ + A_1 A_3 \left( \dfrac{\sin 2x}{2} - \dfrac{\sin 4x}{4} \right)
+ + \dfrac{A_3^2}{2} \left( x - \dfrac{\sin 6x}{6} \right).
+\]
+
+At the lower limit the substitution of $0$ for $x$ causes all
+this to vanish, whilst at the upper limit the substitution
+of $2\pi$ for $x$ gives $A_1^2 \pi + A_3^2 \pi$. And hence the
+answer follows.
+
+<p>(14)  Area is $62.6$ square units. Mean ordinate is $10.42$.
+
+<p>(16)  $436.3$. (This solid is pear shaped.)
 
 <p>
 

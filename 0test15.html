@@ -533,7 +533,7 @@ $\dfrac{1}{x}$ when we reach the chapter on integrating.
 <p>Now, try to differentiate
 \begin{align*}
                               y &= \log_\epsilon(x+a),\\
- that is  \epsilon^y &= x+a;
+ \text{that is}\;  \epsilon^y &= x+a;
 \end{align*}
 we have $\dfrac{d(x+a)}{dy} = \epsilon^y$, since the differential of $\epsilon^y$
 remains $\epsilon^y$.
@@ -763,7 +763,7 @@ Similarly, if $v=\log_\epsilon(x^3-2)$, $\dfrac{dv}{dx} = \dfrac{3x^2}{x^3-2}$ a
 <p>
 <hr><h3>Exercises XII</h3> 
 <problems> 
-(1) Differentiate $y=b(\epsilon^{ax} -\epsilon^{-ax})$.
+<p>(1) Differentiate $y=b(\epsilon^{ax} -\epsilon^{-ax})$.
 
 <p>(2) Find the differential coefficient with respect to $t$
 of the expression $u=at^2+2\log_\epsilon t$.
@@ -775,25 +775,19 @@ of the expression $u=at^2+2\log_\epsilon t$.
 <p>(5) If $w=pv^n$, find $\dfrac{dw}{dv}$.
 </problems> 
 
-
 <p>Differentiate
-<problems> [2]
-(6) $y=\log_\epsilon x^n$.
-(7) $y=3\epsilon^{-\frac{x}{x-1}}$.
+<problems> 
+<p>(6) $y=\log_\epsilon x^n$.
+<p>(7) $y=3\epsilon^{-\frac{x}{x-1}}$.
+<p>(8) $y=(3x^2+1)\epsilon^{-5x}$.
+<p>(9) $y=\log_\epsilon(x^a+a)$.
 
-<p>
-(8) $y=(3x^2+1)\epsilon^{-5x}$.
-(9) $y=\log_\epsilon(x^a+a)$.
+<p>(10) $y=(3x^2-1)(\sqrt{x}+1)$.
 
-<p>
-(10) $y=(3x^2-1)(\sqrt{x}+1)$.
+<p>(11) $y=\dfrac{\log_\epsilon(x+3)}{x+3}$.
+<p>(12) $y=a^x × x^a$.
 
-<p>
-(11) $y=\dfrac{\log_\epsilon(x+3)}{x+3}$.
-(12) $y=a^x × x^a$.
-
-<p>
-(13) It was shown by Lord Kelvin that the speed of
+<p>(13) It was shown by Lord Kelvin that the speed of
 signalling through a submarine cable depends on the
 value of the ratio of the external diameter of the core
 to the diameter of the enclosed copper wire. If this
@@ -818,6 +812,38 @@ y=x^3-\log_\epsilon x.
 <hr>
 <p><h3 class="answers">Answers</h3>
 
+<p>(1)   $ab(\epsilon^{ax} + \epsilon^{-ax})$.
+
+<p>(2)   $2at + \dfrac{2}{t}$.
+
+<p>(3)   $\log_\epsilon n$.
+
+
+<p>(5)   $npv^{n-1}$.
+
+<p>(6)   $\dfrac{n}{x}$.
+
+<p>(7)   $\dfrac{3\epsilon^{- \frac{x}{x-1}}}{(x - 1)^2}$.
+
+
+<p>(8)   $6x \epsilon^{-5x} - 5(3x^2 + 1)\epsilon^{-5x}$.
+
+<p>(9)   $\dfrac{ax^{a-1}}{x^a + a}$.
+
+
+<p>(10)   $\left(\dfrac{6x}{3x^2-1} + \dfrac{1}{2\left(\sqrt x + x\right)}\right) \left(3x^2-1\right)\left(\sqrt x + 1\right)$.
+
+<p>(11)   $\dfrac{1 - \log_\epsilon \left(x + 3\right)}{\left(x + 3\right)^2}$.
+
+
+<p>(12)   $a^x\left(ax^{a-1} + x^a \log_\epsilon a\right)$.
+
+<p>(14)   Min.: $y = 0.7$ for $x = 0.694$.
+
+
+<p>(15)   $\dfrac{1 + x}{x}$.
+
+<p>(16)   $\dfrac{3}{x} (\log_\epsilon ax)^2$.
 <p>
 <h2>The Logarithmic Curve.</h2>
 
@@ -932,16 +958,15 @@ the slope $\dfrac{dy}{dx}$ is proportional to the height $y$; the
 curve becoming flatter as $y$ grows smaller. In symbols,
 thus
 
-y=b\epsilon^{-ax}\\
-
- or 
+$y=b\epsilon^{-ax}$ or 
+\[
 \log_\epsilon y
   = \log_\epsilon b - ax \log_\epsilon \epsilon
   = \log_\epsilon b - ax,\\
- and, differentiating,  
+ \text{and, differentiating,}\;
 \frac{1}{y}\, \frac{dy}{dx} = -a;\\
- hence  \frac{dy}{dx} = b\epsilon^{-ax} × (-a) = -ay;
-
+ \text{hence}\;  \frac{dy}{dx} = b\epsilon^{-ax} × (-a) = -ay;
+\]
 or, in words, the slope of the curve is downward, and
 proportional to $y$ and to the constant $a$.
 
@@ -949,12 +974,12 @@ proportional to $y$ and to the constant $a$.
 taken the equation in the form
 \begin{align*}
 y &= bp^x; \\
- for then 
+ \text{for then}\; 
 \frac{dy}{dx}
   &= bp^x × \log_\epsilon p. \\
-   But 
+   \text{But}\; 
 \log_\epsilon p &= -a; \\
- giving us 
+ \text{giving us}\; 
 \frac{dy}{dx} &= y × (-a) = -ay,
 \end{align*}
 as before.
@@ -1027,8 +1052,8 @@ will have fallen to $72° × 0.0498 = 3.586°$.
 
 <p><hr>
 
-<p><em>Further Examples.
-(1) The strength of an electric current in a conductor
+<p><em>Further Examples.</em>
+<p>(1) The strength of an electric current in a conductor
 at a time $t$ secs. after the application of the
 electromotive force producing it is given by the expression
 $C = \dfrac{E}{R}\left\{1 - \epsilon^{-\frac{Rt}{L}}\right\}$.
@@ -1071,7 +1096,7 @@ of the beam and $K$ is a “constant of absorption.”
 
 <p>This constant is usually found by experiments. If
 it be found, for instance, that a beam of light has
-its intensity diminished by 18\% in passing through
+its intensity diminished by 18% in passing through
 $10$ cms. of a certain transparent medium, this means
 that $82 = 100 × \epsilon^{-K×10}$ or $\epsilon^{-10K} = 0.82$, and from the
 table one sees that $10K = 0.20$ very nearly; hence
@@ -1108,7 +1133,7 @@ time is called the “mean life” of the substance.)
 <p>We have $0.5 = \epsilon^{-0.00385t}$.\Pagelabel{erratum0a}
 \begin{align*}
 \log 0.5 &= -0.00385t × \log \epsilon; \\
- and 
+ \text{and}\; 
 t &= 3\text{ minutes very nearly}.
 \end{align*}
 
@@ -1127,7 +1152,7 @@ excess.
 
 <p>(3) Plot the curve $y = 100(1-\epsilon^{-2t})$.
 
-<p>XIII:4 - {(4)} The following equations give very similar curves:
+<p>(4) The following equations give very similar curves:
 \begin{align*}
 \text{(i)}\   y &= \frac{ax}{x + b}; \\
 \text{(ii)}\  y &= a(1 - \epsilon^{-\frac{x}{b}}); \\
@@ -1140,9 +1165,9 @@ $b = 30$ millimetres.
 <p>(5) Find the differential coefficient of $y$ with respect
 to $x$, if
 \[
-(<em>a</em> ) y = x^x;\quad
-(<em>b</em> ) y = (\epsilon^x)^x;\quad
-(<em>c</em> ) y = \epsilon^{x^x}.
+(a) y = x^x;\quad
+(b) y = (\epsilon^x)^x;\quad
+(c) y = \epsilon^{x^x}.
 \]
 
 <p>(6) For “Thorium $A$,” the value of $\lambda$ is $5$; find the
@@ -1174,7 +1199,7 @@ initial strength $i_0$; $l$ is the length of the line in kilometres,
 and $\beta$ is a constant. For the Franco-English
 submarine cable laid in 1910, $\beta = 0.0114$. Find the
 damping at the end of the cable ($40$ kilometres), and
-the length along which $i$ is still $8$\% of the original
+the length along which $i$ is still $8$% of the original
 current (limiting value of very good audition).
 
 <p>(10) The pressure $p$ of the atmosphere at an altitude
@@ -1194,6 +1219,35 @@ in each case.
 </problems> 
 <p><h3 class="answers">Answers</h3>
 
+<p>(1)   Let $\dfrac{t}{T} = x$ ($\therefore t = 8x$), and use the Table on \Pageref[page]{littletable}.
+
+<p>(2)   $T = 34.627$; $159.46$ minutes.
+
+<p>(3)   Take $2t = x$; and use the Table on \Pageref[page]{littletable}.
+
+<p>(5)   (<em>a</em> ) $x^x \left(1 + \log_\epsilon x\right)$;&nbsp;&nbsp;
+(<em>b</em> ) $2x(\epsilon^x)^x$;&nbsp;&nbsp;
+(<em>c</em> ) $\epsilon^{x^x} × x^x \left(1 + \log_\epsilon x\right)$.
+
+
+<p>(6)   $0.14$ second.
+
+<p>(7)   (<em>a</em> ) $1.642$;&nbsp;&nbsp; (<em>b</em> ) $15.58$.
+
+
+<p>(8)   $\mu = 0.00037$, $31^m \frac{1}{4}$. 
+
+<p>(9)   $i$ is $63.4$% of $i_0$, $220$ kilometres.
+
+<p>(10)   $0.133$, $0.145$, $0.155$, mean $0.144$; $-10.2$%, $-0.9$%, $+77.2$%.
+
+
+<p>(11)   Min. for $x = \dfrac{1}{\epsilon}$.
+
+<p>(12)   Max. for $x = \epsilon$.
+
+
+<p>(13)   Min. for $x = \log_\epsilon a$.
 
 <p>
 
